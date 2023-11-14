@@ -3,9 +3,8 @@ import React from 'react'
 const Design = (props) => {
   return (
     <div className='designs'>
-        <h4>{props.carName} </h4>
+        <h1>{props.carName} </h1>
       <p>{props.details} </p>
-      <button>{props.learnMore} </button>
     </div>
   )
 }
