@@ -74,3 +74,28 @@ svg{
   padding-left: 30px;
   padding-top: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    .App{
+      display: flex;
+      flex-direction: column;
+    }
+    .sedan{
+      height: 350px;
+    }
+    .suv{
+      height: 350px;
+    }
+    .luxury{
+      height: 350px;
+    }
+    .sedan>button{
+      margin-top: 20px;
+    }
+    .luxury>button{
+      margin-top: 20px;
+    }
+    .suv>button{
+      margin-top: 20px;
+    }
+  }
